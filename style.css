@@ -53,7 +53,7 @@ body{
   font-size: 18px;
   font-weight: 700;
   display: block;
-  margin-block-start: 1.33em;
+  margin-block-start: 1.5em;
   margin-block-end: 1.33em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
@@ -87,7 +87,7 @@ body{
   font-size: 18px;
   font-weight: 700;
   display: block;
-  margin-block-start: 1.33em;
+  margin-block-start: 1.5em;
   margin-block-end: 1.33em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
@@ -121,7 +121,7 @@ body{
   font-size: 18px;
   font-weight: 700;
   display: block;
-  margin-block-start: 1.33em;
+  margin-block-start: 1.5em;
   margin-block-end: 1.33em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
@@ -192,7 +192,7 @@ body{
 }
 .container1 .allcontext .hrr{
   position: relative;
-  top: 60px;
+  top: 63px;
 }
 .container1 .allcontext .hrr img{
   position: relative;
@@ -604,10 +604,114 @@ img {vertical-align: middle;}
   width: 50%;
   left: 725px;
 }
-
-
-
-
+.info{
+  position: relative;
+  width: 100%;
+  height: 496.8px;
+  color: #ffffff;
+}
+.info .head2{
+  display: inline-block;
+    font-size: 30px;
+    color: #111111;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    top: 103px;
+    left: 209.5px;
+}
+ .info #paragraph{
+  position: relative;
+  top: 136.5px;
+  left: 209.5px;
+  font-size: 15px;
+  color: #707070;
+  width: 535px;
+  height: 135px;
+  line-height: 1.8;
+} 
+.info a{
+  position: relative;
+  left: 209px;
+  top: 183px;
+  text-decoration: none;
+  background-color: #ffd71b;
+  padding: 13px 49px;
+  font-family: "Oswald", sans-serif;
+  color: black;
+  font-size: 13px;
+  font-weight: 700;
+}
+.info .home-img{
+  display: inline-block;
+  position: absolute;
+  right: 210px;
+  top: 60px;
+}
+.info .home-img img{
+  width: 535px;
+  height: 370.04px;
+}
+.back{
+  width: 100%;
+  height: 744.88px;
+  background: url("./Picture/Amazing-Interior.jpg") no-repeat;
+  background-size: cover;
+}
+.piqu .search{
+  position: relative;
+  left: 84px;
+  top: 29px;
+}
+.search input[type=text]{
+  width: 169px;
+  height: 36px;
+  font-size: 11px;
+  border: 2px solid #fff;
+  float: left;
+  padding-left: 9px;
+  background: #f1f1f1;
+}
+.search .frm button{
+  width: 36px;
+  height: 36px;
+  font-size: 13px;
+  position: relative;
+  left: -36px;
+  border: 1px solid #ffd71b;
+  background-color: #ffd71b;
+  cursor: pointer;
+}
+.piqu .crt{
+  width: 35px;
+  height: 25px;
+  position: relative;
+  left: 61.5px;
+  top: 35px;
+}
+.piqu .crt span{
+  color: white;
+  font-size: 14px;
+}
+.piqu .basket{
+  position: relative;
+  top: 33px;
+  left: 63px;
+}
+.piqu .basket span{
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd71b;
+  font-size: 10px;
+  position: relative;
+  top: -26px;
+  left: 20px;
+}
 
 
 
