@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         d1.style.display = 'none';
     });
 });
-
+// todo
 document.addEventListener('DOMContentLoaded', (event) => {
     const li2=document.getElementById("li2");
     const d2=document.getElementById("d-2");
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             d2.style.display = "none";
     });
 });
-
+// todo
 document.addEventListener('DOMContentLoaded', (event) => {
     const li3=document.getElementById("li3");
     const d3=document.getElementById("d-3");
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             d3.style.display = "none";
     });
 });
-
+// todo
 document.addEventListener('DOMContentLoaded', (event) => {
     const li5=document.getElementById("li5");
     const d5=document.getElementById("d-5");
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             d5.style.display = "none";
     });
 });
-
+// todo
 document.addEventListener('DOMContentLoaded', (event) => {
     const li6=document.getElementById("li6");
     const d6=document.getElementById("d-6");
@@ -104,8 +104,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
             d6.style.display = "none";
     });
 });
-
-
 // todo  
 let slideIndex = 0;
 showSlides();
@@ -125,5 +123,18 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 3000); 
+}
+
+// ?
+function toggle(event) {
+    event.preventDefault();
+    var img=document.querySelector(".thirdsect .chose-image");
+
+    if(img.style.display === "none"){
+        img.style.display = "block"
+    }
+    else{
+        img.style.display = "none";
+    }
 }
 

@@ -263,6 +263,10 @@ body{
   display: inline-block;
   margin-top: 1px;
   margin-left: 1px;
+  transition: color 0.5s ease;
+}
+.navul .ulpinq .a-li1:hover{
+  color: #ffd71b;
 }
 .navul .ulpinq #li{
   position: relative;
@@ -316,6 +320,10 @@ margin-left: -8px;
   text-decoration: none;
   margin-left: -19px;
   margin-top: 1.5px;
+  transition: color 0.5s ease;
+}
+.ulpinq #li2 .a-li2:hover{
+  color: #ffd71b;
 }
 #d-2{
   display: none;
@@ -362,6 +370,10 @@ margin-left: -8px;
   text-decoration: none;
   margin-left: -19px;
   margin-top: 1.5px;
+  transition: color 0.5s ease;
+}
+.ulpinq #li3 .a-li3:hover{
+  color: #ffd71b;
 }
 #d-3{
   display: none;
@@ -408,6 +420,10 @@ margin-left: -8px;
   text-decoration: none;
   margin-left: -19px;
   margin-top: 1.5px;
+  transition: color 0.5s ease;
+}
+.ulpinq #li4 .a-li4:hover{
+  color: #ffd71b;
 }
 /* ================ */
 .ulpinq #li5 .a-li5{
@@ -416,6 +432,10 @@ margin-left: -8px;
   text-decoration: none;
   margin-left: -19px;
   margin-top: 1.5px;
+  transition: color 0.5s ease;
+}
+.ulpinq #li5 .a-li5:hover{
+  color: #ffd71b;
 }
 #d-5{
   display: none;
@@ -462,6 +482,10 @@ margin-left: -8px;
   text-decoration: none;
   margin-left: -19px;
   margin-top: 1.5px;
+  transition: color 0.5s ease;
+}
+.ulpinq #li6 .a-li6:hover{
+  color: #ffd71b;
 }
 #d-6{
   display: none;
@@ -508,6 +532,10 @@ margin-left: -8px;
   text-decoration: none;
   margin-left: -19px;
   margin-top: 1.5px;
+  transition: color 0.5s ease;
+}
+.ulpinq #li7 .a-li7:hover{
+  color: #ffd71b;
 }
 /* ========================= */
 .thirdsect{
@@ -522,6 +550,294 @@ margin-left: -8px;
   font-family: 'Shadows Into Light', serif;
   color: white;
   font-size: 36px;
+}
+.thirdsect .sections{
+  position: relative;
+  left: 387px;
+  top: -3px;
+  display: flex;
+  gap: 45px;
+}
+.sections{
+  width: 500px;
+}
+.sections .fod{
+  height: 30px;
+  position: relative;
+  top: 6px;
+  left: 4px;
+}
+.sections .fod i{
+  color: white;
+  position: relative;
+  left: -5px;
+}
+.sections .fod .link-drink{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+.sections .int{
+  height: 30px;
+  position: relative;
+  top: 6px;
+  left: -11px;
+}
+.sections .int i{
+  color: white;
+  position: relative;
+  left: -5px;
+}
+.sections .int .link-interior{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+.sections .des{
+  height: 30px;
+  position: relative;
+  top: 6px;
+  left: -25px;
+}
+.sections .des i{
+  color: white;
+  position: relative;
+  left: -5px;
+}
+.sections .des .link-deserts{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+.sections .rec{
+  height: 30px;
+  position: relative;
+  top: 6px;
+  left: -37px;
+}
+.sections .rec i{
+  color: white;
+  position: relative;
+  left: -5px;
+}
+.sections .rec .link-recipes{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+.chose-image{
+  position: relative;
+  top: 60px;
+  left: 30px;
+  width: 1460px;
+  height: 277.75px;
+}
+/* =========111111========== */
+.chose-image .ch-img-1{
+  width: 290px;
+  height: 285px;
+  position: relative;
+  display: inline-block;
+}
+.chose-image .ch-img-1 .hoverimage-1{
+  width: 280px;
+  height: 277px;
+  position: relative;
+  opacity: 1;
+  display: block;
+  align-self: stretch;
+  flex-shrink: 0;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out, .5s ease;
+}
+.ch-img-1:hover .hoverimage-1{
+  transform: scale(1.2);
+  opacity: 0.3;
+}
+.chose-image .text1{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.chose-image .ch-img-1:hover .text1{
+  opacity: 1;
+}
+.chose-image .text1 p{
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+}
+/* =========222222========== */
+.chose-image .ch-img-2{
+  width: 290px;
+  height: 285px;
+  position: relative;
+  display: inline-block;
+}
+.chose-image .ch-img-2 .hoverimage-2{
+  width: 280px;
+  height: 277px;
+  position: relative;
+  opacity: 1;
+  display: block;
+  align-self: stretch;
+  flex-shrink: 0;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out, .5s ease;
+}
+
+.ch-img-2:hover .hoverimage-2{
+  transform: scale(1.2);
+  opacity: 0.3;
+}
+.chose-image .text2{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.chose-image .ch-img-2:hover .text2{
+  opacity: 1;
+}
+.chose-image .text2 p{
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+}
+/* =========3333333========== */
+.chose-image .ch-img-3{
+  width: 290px;
+  height: 285px;
+  position: relative;
+  display: inline-block;
+}
+.chose-image .ch-img-3 .hoverimage-3{
+  width: 280px;
+  height: 277px;
+  position: relative;
+  opacity: 1;
+  display: block;
+  align-self: stretch;
+  flex-shrink: 0;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out, .5s ease;
+}
+
+.ch-img-3:hover .hoverimage-3{
+  transform: scale(1.2);
+  opacity: 0.3;
+}
+.chose-image .text3{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.chose-image .ch-img-3:hover .text3{
+  opacity: 1;
+}
+.chose-image .text3 p{
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+}
+/* =========444444========== */
+.chose-image .ch-img-4{
+  width: 290px;
+  height: 285px;
+  position: relative;
+  display: inline-block;
+}
+.chose-image .ch-img-4 .hoverimage-4{
+  width: 280px;
+  height: 277px;
+  position: relative;
+  opacity: 1;
+  display: block;
+  align-self: stretch;
+  flex-shrink: 0;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out, .5s ease;
+}
+.ch-img-4:hover .hoverimage-4{
+  transform: scale(1.2);
+  opacity: 0.3;
+}
+.chose-image .text4{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.chose-image .ch-img-4:hover .text4{
+  opacity: 1;
+}
+.chose-image .text4 p{
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+}
+/* =========55555========== */
+.chose-image .ch-img-5{
+  width: 275px;
+  height: 285px;
+  position: relative;
+  display: inline-block;
+}
+.chose-image .ch-img-5 .hoverimage-5{
+  width: 280px;
+  height: 277px;
+  position: relative;
+  opacity: 1;
+  display: block;
+  align-self: stretch;
+  flex-shrink: 0;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out, .5s ease;
+}
+.ch-img-5:hover .hoverimage-5{
+  transform: scale(1.2);
+  opacity: 0.3;
+}
+.chose-image .text5{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.chose-image .ch-img-5:hover .text5{
+  opacity: 1;
+}
+.chose-image .text5 p{
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
 }
 /* ======================= */
 
